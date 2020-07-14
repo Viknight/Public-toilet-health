@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Homepage_Menu"
+            android:icon="@drawable/ic_homepage_menu"
+            android:title="@string/Homepage_menu" />
+        <item
+            android:id="@+id/nav_Administrator_Menu"
+            android:icon="@drawable/ic_administrator_menu"
+            android:title="@string/Administrator_menu" />
+        <item
+            android:id="@+id/nav_Cleaners_Portal_Menu"
+            android:icon="@drawable/ic_cleaner_menu"
+            android:title="@string/Cleaners_Portal" />
+        <item
+            android:id="@+id/nav_Public_Grievances_Menu"
+            android:icon="@drawable/ic_public_menu"
+            android:title="@string/Public_grievances" />
+        <item
+            android:id="@+id/nav_Press_Releases_Menu"
+            android:icon="@drawable/ic_press_release"
+            android:title="@string/Press_Release" />
+
+    </group>
+
+    <item android:title="@string/for_communicate_menu">
+        <menu>
+            <item
+                android:id="@+id/nav_About_Menu"
+                android:icon="@drawable/ic_about_menu"
+                android:title="@string/about_menu" />
+            <item
+                android:id="@+id/nav_Share_Menu"
+                android:icon="@drawable/ic_share_menu"
+                android:title="@string/share_menu" />
+            <item
+                android:id="@+id/nav_Suggestion_Menu"
+                android:icon="@drawable/ic_suggestions_menu"
+                android:title="@string/any_suggestion_menu" />
+        </menu>
+    </item>
+
+</menu>

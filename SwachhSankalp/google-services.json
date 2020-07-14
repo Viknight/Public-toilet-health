@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "664825470828",
+    "firebase_url": "https://swachhsankalp-9341d.firebaseio.com",
+    "project_id": "swachhsankalp-9341d",
+    "storage_bucket": "swachhsankalp-9341d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664825470828:android:670b8bbbbc7db58f789d49",
+        "android_client_info": {
+          "package_name": "com.example.swachhsankalp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664825470828-gkp4aoetndc7cjlphg8cjosu0pt013r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbzHAW9gh4rXnfZ4d_2DIl0h9MlGIfe5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664825470828-gkp4aoetndc7cjlphg8cjosu0pt013r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

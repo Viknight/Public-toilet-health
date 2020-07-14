@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Administrator_Menu_Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadows"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:elevation="20dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textStyle="italic|bold"
+        android:layout_marginHorizontal="20dp"
+        android:text="This is the Administrator's Login Portal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="20dp"
+        android:textColor="@color/olive"
+        android:elevation="20dp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:text="The administrator has the Rights to view all the data, modify them and also has the priviledge to delete data fields or totally truncate them.\n\n The attendance of the cleaner will also be visiible from this portal of the administrator.\nClick below to proceed "/>
+
+
+    <Button
+        android:id="@+id/btn_Administrator_login_fragment_to_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Proceed to Administrator Login"
+        android:padding="20dp"
+        android:clickable="true"
+        android:linksClickable="true"/>
+
+
+</LinearLayout>

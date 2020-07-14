@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadows"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Welcome to Press Releases"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/olive"
+        android:elevation="20dp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:text="Press releases is the section where the government statistics from the official website is shown live. \n\n Government of india maintains these statistics under the Swachh Bharat Mission which is managed by the ministry of Jai Shakti \n\n The following screen will be a Webview embedded in the application which can be visited from the browser as well."/>
+
+
+    <Button
+        android:id="@+id/btn_Press_Releases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Proceed to Press Release"
+        android:padding="20dp"
+        android:clickable="true"
+        android:linksClickable="true"/>
+
+</LinearLayout>

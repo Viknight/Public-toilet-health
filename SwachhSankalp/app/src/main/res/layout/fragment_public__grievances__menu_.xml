@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Public_Grievances_Menu_Fragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadows"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Public Grievances Section"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="You can add any grievance related to sanitation and health tracking of Public toilets. \n\n To maintain your identity and further communicate with you can create a thread on the mail which can be done with just a click on the email id given below.\n\n You will be redirected to mail apps like the gmail with subject and sender section pre-filled please do not change those. Your grievance will be addressed by the officials as soon as possible.\n\n Click below to proceed"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_public_grievance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:elevation="24dp"
+        android:padding="10dp"
+        android:text="Click here to Mail : info@swachhsankalp.com"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        android:textStyle="italic|bold" />
+
+</LinearLayout>

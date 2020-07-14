@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/share_image" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="20dp"
+        android:textColor="@color/olive"
+        android:elevation="20dp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:layout_marginHorizontal="20dp"
+        android:text="This Swachh Sankalp app can be shared through multiple platforms with just one click. \n\nClick the button below to proceed!"/>
+
+    <Button
+        android:id="@+id/btn_share_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="SHARE App!"
+        android:padding="20dp"
+        android:clickable="true"
+        android:linksClickable="true"/>
+
+</LinearLayout>

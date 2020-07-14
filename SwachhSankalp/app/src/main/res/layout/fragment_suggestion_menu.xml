@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transparent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadows"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:elevation="20dp"
+        android:padding="10dp"
+        android:textStyle="italic|bold"
+        android:layout_marginHorizontal="20dp"
+        android:text="Do you have any Suggestion or Feedback for Us?"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="20dp"
+        android:textColor="@color/olive"
+        android:elevation="20dp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:text="Feel free to present your Opinions or ideas to us because Without ideas, progress isn’t made, change doesn’t happen, much of human development stops. \n\nAlso Feedback provides a sense of engagement and interactivity, helps to improve and enhance our performance as well as develop an ability to serve you better!  "/>
+
+
+
+    <ImageView
+        android:id="@+id/Suggestion_clickable_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/suggestion_image"
+        android:layout_margin="20dp"
+        android:clickable="true"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
