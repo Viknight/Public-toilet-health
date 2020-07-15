@@ -1,2 +1,2 @@
 # Public-toilet-health
-A IOT based device which is able to track the cleanliness in Public toilets using a set of sensors , API, Website
+An IOT based device which is able to track the cleanliness of Public toilets using a set of sensors , API, Website and Android application.
